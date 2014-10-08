@@ -3,9 +3,9 @@ PloneXMLMigration
 
 Small script written to migrate content from XML files into Plone. It's specific to one particular website and one particular content but it can easily be adapted to create other plone content from XML files.
 
-It is meant to be used in a product and run as an external method (Instructions:  )
+It is meant to be used in a product and run as an external method (Instructions below)
 
-I ran it by creating a Extensions product (in this case Products.MyExtensions), adding these files to it and running it from the url of the external method with the necessary arguments passed through the query string.
+I ran it by creating a Extensions product (in this case Products.MyExtensions), adding these files to it as a  and running it from the url of the external method with the necessary arguments passed through the query string.
 
 Note that there are many better ways to do this and many products have been created for this and are much more flexible. I have created this script because it was a one time migration and writing it myself had a considerably less steap learning curve than learning how to use any of the existing products at the time. It has served me well though.
 
